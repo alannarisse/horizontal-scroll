@@ -3,7 +3,10 @@
 }
 body {
   margin: 0;
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 60px;
 }
+
 .slide {
   width: 100vw;
   height: 100vh;
