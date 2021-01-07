@@ -7,6 +7,23 @@ body {
   font-size: 60px;
 }
 
+.cat1 {
+  opacity: 1;
+  animation-delay: 8s;
+  animation-name: cat-fade;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cat-fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .slide {
   width: 100vw;
   height: 100vh;
@@ -16,13 +33,14 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 400vw;
+  width: 600vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
 .vh-center {
   margin: auto auto;
   width: 80%;
+  border: 2px solid red;
 }
 
 .outer-wrapper {
@@ -51,7 +69,14 @@ body {
   background: #0bbaa0;
 }
 .four {
-  background: #00dfdf;
+  background: #000;
+  color: #fff;
+}
+.five {
+  background: red;
+}
+.six {
+  background: antiquewhite;
 }
 .center {
   text-align: center;
